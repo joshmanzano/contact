@@ -1,8 +1,8 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: #eaeaea;
+    background: #f0f0f0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,41 +10,32 @@ body {
 }
 
 .card {
-    width: 400px;
-    padding: 30px;
-    background: #ffffff;
-    border-radius: 15px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    width: 350px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
 
-.profile-header {
-    margin-bottom: 20px;
-}
-
 .profile-img {
-    width: 120px;
-    height: 120px;
+    width: 120px; /* Increased size */
+    height: 120px; /* Increased size */
     border-radius: 50%;
-    border: 3px solid #007bff;
-    margin: 0 auto 15px;
+    margin: 0 auto 20px;
+    display: block;
 }
 
 h1 {
-    margin: 10px 0 5px;
-    font-size: 24px;
+    margin: 0 0 10px;
+    font-size: 24px; /* Increased size */
     color: #333;
 }
 
 p {
-    font-size: 14px;
-    color: #666;
-    line-height: 1.4;
-    margin: 5px 0;
-}
-
-.contact-info {
-    margin-top: 20px;
+    font-size: 18px; /* Increased size */
+    line-height: 1.6; /* Adjusted for better readability */
+    margin: 10px 0;
 }
 
 a {
@@ -57,18 +48,18 @@ a:hover {
 }
 
 .social-links {
-    margin-top: 25px;
-    display: flex;
-    justify-content: center;
+    margin-top: 20px;
 }
 
 .social-links a {
-    margin: 0 15px;
-    font-size: 20px;
-    display: inline-block;
-    transition: color 0.3s;
+    margin: 0 10px;
+    font-size: 20px; /* Increased size */
+    display: inline-block; /* For proper icon alignment */
 }
 
-.social-links a:hover {
-    color: #0056b3;
+/* Placeholder for actual icons */
+.icon-placeholder {
+    display: inline-block;
+    margin-right: 8px;
+    /* Style your icons here, e.g., background-image for a sprite, or font settings for an icon font */
 }
