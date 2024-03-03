@@ -19,22 +19,22 @@ body {
 }
 
 .profile-img {
-    width: 120px; /* Increased size */
-    height: 120px; /* Increased size */
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     margin: 0 auto 20px;
     display: block;
 }
 
 h1 {
-    margin: 0 0 10px;
-    font-size: 24px; /* Increased size */
+    margin: 0 0 20px;
+    font-size: 24px; /* Increased font size */
     color: #333;
 }
 
 p {
-    font-size: 18px; /* Increased size */
-    line-height: 1.6; /* Adjusted for better readability */
+    font-size: 18px; /* Increased font size */
+    line-height: 1.6; /* Slightly increased line height for better readability */
     margin: 10px 0;
 }
 
@@ -53,13 +53,13 @@ a:hover {
 
 .social-links a {
     margin: 0 10px;
-    font-size: 20px; /* Increased size */
-    display: inline-block; /* For proper icon alignment */
+    font-size: 20px; /* Increased font size for social links */
+    display: inline-flex; /* To properly align icons with text */
+    align-items: center; /* Center items vertically */
 }
 
-/* Placeholder for actual icons */
-.icon-placeholder {
-    display: inline-block;
-    margin-right: 8px;
-    /* Style your icons here, e.g., background-image for a sprite, or font settings for an icon font */
+.social-icon {
+    width: 24px; /* Size of the social icons */
+    height: 24px; /* Size of the social icons */
+    margin-right: 10px; /* Space between icon and text */
 }
